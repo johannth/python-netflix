@@ -5,7 +5,11 @@ from setuptools import setup
 setup(
     name='python-netflix',
     version='0.3.0',
-    install_requires=['requests>=0.13.0', 'simplejson'],
+    install_requires=[
+        'requests>=2.1.0',
+        'requests-oauthlib>=0.4.0',
+        'pytest'
+    ],
     author='Mike Helmick',
     author_email='mikehelmick@me.com',
     license='MIT License',
